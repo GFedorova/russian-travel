@@ -1,8 +1,12 @@
 .place {
-    width: 100%;
     display: grid;
-    grid-template-columns: 460px 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 48px 40px;
+    grid-template-columns: minmax(440px, 460px) 1fr;
+    gap: 48px 40px;
     color: white;
-}
+    padding: 0 148px;
+    margin-bottom: 80px;
+  }
+
+  .place:last-child {
+    margin-bottom: 92px;
+  }
