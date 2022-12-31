@@ -19,15 +19,17 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    gap: 32px;
+    gap: 48px 32px;
+    grid-template-columns: minmax(352px, 440px) 1fr;
   }
 }
 
 @media screen and (max-width: 896px) {
   .place {
     padding: 0 24px;
-    gap: 28px;
+    gap: 48px 28px;
     grid-template-columns: minmax(340px, 320px) 1fr;
+    /*margin: 0 0 73px;*/
   }
 }
 
@@ -41,7 +43,8 @@
 
 @media screen and (max-width: 320px) {
   .place {
-    gap: 12px;
+    grid-template-columns: minmax(288px, 1fr);
+    gap: 32px;
     margin-bottom: 50px;
     }
 }
