@@ -11,3 +11,18 @@ transition: opacity 1 ease;
 .place__link:hover {
 opacity: 0.8;
 }
+
+@media screen and (max-width: 767px) {
+  .place__link {
+    gap: 28px;
+    line-height: 12px;
+    /*padding: 0 16 32px 0;*/
+  }
+}
+
+/*@media screen and (max-width: 320px) {
+  .place__link {
+    gap: 28px;
+    line-height: 12px;
+  }
+}

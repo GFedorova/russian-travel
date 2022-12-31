@@ -10,7 +10,6 @@
   position: relative;
   z-index: 1;
   max-width: 1184px;
-  width: calc(100% - 48px * 2);
   margin: 0 auto;
   text-decoration: none;
 }
@@ -22,11 +21,36 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: #2A2C2F;
+  background: #2a2c2f;
   opacity: 0.3;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 
 .cover__overlay:hover:before {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    margin: 0;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  .cover__overlay {
+  min-height: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cover__overlay {
+  min-height: 200px;
+  }
 }

@@ -6,9 +6,18 @@
     color: white;
     line-height: 28px;
     font-style: normal;
-    margin-right: 18px;
+    text-align: left;
+    margin-left: 18px;
+    transition: opacity 1 ease;
     }
 
-.header__lang-link:last-child {
-    margin-right: 0;
+.header__lang-link:hover {
+  opacity: 0.8
+}
+
+@media screen and (max-width: 450px) {
+.header__lang-link {
+  font-size: 18px;
+  line-height: 20px;
+  }
 }
