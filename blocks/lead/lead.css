@@ -1,8 +1,8 @@
 .lead {
-   width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 0 143px 0 153px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 143px 0 153px;
 }
 
 @media screen and (max-width: 1024px) {

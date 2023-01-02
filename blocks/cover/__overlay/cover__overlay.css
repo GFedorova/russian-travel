@@ -45,12 +45,12 @@
 
 @media screen and (max-width: 508px) {
   .cover__overlay {
-  min-height: 300px;
+    min-height: 300px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .cover__overlay {
-  min-height: 200px;
+    min-height: 200px;
   }
 }

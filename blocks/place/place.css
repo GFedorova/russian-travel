@@ -4,7 +4,8 @@
   gap: 48px 40px;
   color: white;
   margin-bottom: 80px;
-  padding: 0 148px;
+  padding: 0 148px 80px 148px;
+  box-sizing: border-box;
 }
 
 .place:last-child {
@@ -28,8 +29,8 @@
   .place {
     padding: 0 24px;
     gap: 48px 28px;
-    grid-template-columns: minmax(340px, 320px) 1fr;
-    /*margin: 0 0 73px;*/
+    grid-template-columns: minmax(320px, 340px) 1fr;
+    margin: 0 0 73px;
   }
 }
 
@@ -46,5 +47,5 @@
     grid-template-columns: minmax(288px, 1fr);
     gap: 32px;
     margin-bottom: 50px;
-    }
+  }
 }
