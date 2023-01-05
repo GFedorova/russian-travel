@@ -6,8 +6,9 @@
   color: white;
   line-height: 28px;
   font-style: normal;
-  text-align: left;
   margin-left: 18px;
+  list-style: none;
+  text-align: left;
   transition: opacity 1 ease;
 }
 
